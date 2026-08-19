@@ -19,3 +19,10 @@ order by (revenue) asc;
 SELECT avg(orders) as average_per_category from Marketing
 group by category;
 
+SELECT day_type, sum(orders) as sum_Orders from Marketing
+group by day_type;
+
+SELECT geo_locations, sum(ROMI) as total_ROMI from Marketing
+group by geo_locations 
+order by total_ROMI desc;
+

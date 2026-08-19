@@ -36,3 +36,7 @@ END;
 
 ALTER table Marketing
 Add ROMI int;
+Go
+UPDATE Marketing
+SET ROMI =
+    ((revenue - mark_spent) *100) / NULLIF(mark_spent, 0);
