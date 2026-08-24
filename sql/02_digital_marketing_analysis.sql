@@ -16,7 +16,7 @@ order by (revenue) desc;
 SELECT top 1 (c_date), (revenue) from Marketing
 order by (revenue) asc;
 
-SELECT avg(orders) as average_per_category from Marketing
+SELECT category, avg(orders) as average_per_category from Marketing
 group by category;
 
 SELECT day_type, sum(orders) as sum_Orders from Marketing

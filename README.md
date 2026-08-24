@@ -57,12 +57,38 @@ marketing-campaign-analysis
 - Subqueries
 
 ## Business Questions
-
+1. How did campaign performance vary over time? Which dates recorded the highest marketing spend, revenue, and conversion rates?
+2. What was the average order value (AOV) for each campaign?
+3. Are customers more active on weekdays or weekends? How do revenue and orders compare between the two periods?
+4. Which campaign type performs best: Social, Banner, Influencer, or Search?
+5. How does campaign performance differ across geo locations?
 
 ## Key Findings
 
-To be updated after completing the analysis.
+1. How did campaign performance vary over time? Which dates recorded the highest marketing spend, revenue, and conversion rates?
+The highest marketing spend was recorded on 2021-02-19. 
+The highest revenue was recorded on 2021-02-19
 
+2. What was the average order value (AOV) for each campaign?
+
+category                                           average_per_category
+-------------------------------------------------- --------------------
+influencer                                         53
+media                                              55
+search                                             14
+social                                             15
+
+3. Are customers more active on weekdays or weekends? How do revenue and orders compare between the two periods?
+
+Weekdays have more active buyers than weekend
+
+4. Which campaign type performs best: Social, Media, Influencer, or Search? 
+
+Influencers work best.
+
+5. How does campaign performance differ across geo locations?
+
+It will be better to target tier 1 cities as their return on investment is higher than tier 2.
 ## Future Improvements
 
 - Build an interactive Power BI dashboard
